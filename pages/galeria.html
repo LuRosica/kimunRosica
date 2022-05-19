@@ -5,55 +5,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- link css -->
+     <!-- link bootstrap -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    
+    <!-- link css -->
     <link rel="stylesheet" href="../css/style.css">
 
     <!-- link tipografia -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Koulen&family=Square+Peg&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Fredoka+One&family=Koulen&family=Square+Peg&display=swap" rel="stylesheet">">
 
     <title>Galeria</title>
 </head>
 <body>
-    <header class="encabezado">
 
-        <div>
-            <a href="../index.html"><img class="item-absolute" src="../img/kimvn.png" alt="Home"></a>
+    <header class="container-fluid">
+
+        <div class="row">
+            <a href="../index.html"><img class="col-6 m-2 item-absolute" src="../img/kimvn.png" alt="Home"></a>   
         </div>
 
-        <h1 class="equipo">Equipo Interdisciplinario Kimun</h1>
-        <h2 class="subtitulo">Aprendiendo Juntos</h2>
+        <div class="rom">
+            <h1 class=" col-12 m-2 text-center equipo">Equipo Interdisciplinario Kimun</h1>
+        </div>
 
-        <nav class="menu">
-            <ul>
-                <li>
-                    <a href="nosotros.html">Nosotros</a>
-                </li>
-                 <li>
-                     <a href="proyectos.html">Proyectos</a>
-                 </li>
-                 <li>
-                    <a href="cursos.html">Cursos</a>
-                </li>
-                <li>
-                    <a href="galeria.html">Galeria</a>
-                </li>
-                <li>
-                    <a href="contacto.html">Contacto</a>
-                </li>
-            </ul>
-         </nav>
+        <div class="row">
+            <h2 class="col-12 m-2 text-center subtitulo">Aprendiendo Juntos</h2>
+        </div>
+        
+
+        <div class="row">
+            <nav class="navbar navbar-expand-lg bg-success">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-bg-success opcion" href="../index.html">HOME</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active text-bg-success opcion" aria-current="page" href="nosotros.html">NOSOTROS</a>
+                            </li>
+                            <li class="nav-item">
+                                 <a class="nav-link text-bg-success opcion" href="proyectos.html">PROYECTOS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-bg-success opcion" href="cursos.html">CURSOS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-bg-success opcion" href="galeria.html">GALERIA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-bg-success opcion" href="contacto.html">CONTACTO</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
     </header>
 
     
     <!-- etiqueta mulmedia - video -->
         <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/zuJ_R1KTpTE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="727" height="409" src="https://www.youtube.com/embed/yyGAZNvNZDI?list=PLHpHd46NVQ5xsdHwKzhMfFr0G6oY8R72s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     
     <footer>
         <p>Copyright Kimun © 2022 - Todos los derechos reservados</p>
     </footer>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
 </body>
 </html>
