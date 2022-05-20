@@ -23,7 +23,6 @@ body{
 }
 
 .item-absolute{
-    position: absolute;
     top: 0px;
     grid-area: item-absolute;
     width: 50%;
