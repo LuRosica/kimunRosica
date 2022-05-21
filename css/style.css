@@ -113,7 +113,22 @@ footer p{
     font-size: 30px;
     text-align: center;
     align-self: center;
+    animation-name: proyecto;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
+
+    @keyframes proyecto{
+    from{
+        transform: scale(1);
+    }
+
+    to{
+        transform: scale(1.5);
+    }
+    } 
+
 .headDos{
     grid-area: headDos;
     color: #446A46;
@@ -121,7 +136,12 @@ footer p{
     font-size: 30px;
     text-align: center;
     align-self: center;
+    animation-name: proyecto;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
+
 .headTres{
     grid-area: headTres;
     color: #446A46;
@@ -129,6 +149,10 @@ footer p{
     font-size: 30px;
     text-align: center;
     align-self: center;
+    animation-name: proyecto;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 .textoUno{
@@ -209,6 +233,7 @@ footer p{
     margin: 30px 50px 20px 90px;
     padding: 20px 50px 10px 40px;
 }
+
 legend{
     color: #005555;
     font-family: 'Bebas Neue', cursive;
@@ -307,6 +332,17 @@ label{
                             "textoTres textoTres";
         gap: 5px;
     }
+
+    .headUno{
+        animation-name: none;
+    }
+    .headDos{
+        animation-name: none;
+    }
+    .headTres{
+        animation-name: none;
+    }
+
     .footer{
     align-self: end;
     justify-self: center;
@@ -315,7 +351,6 @@ label{
     /* contacto html */
 
     .formulario{
-        background-color: #E4E9BE;
         justify-self: center;
         width: 500px;
         height: 400px;
@@ -323,16 +358,14 @@ label{
         padding: 20px 50px 10px 40px;
     }
     legend{
-        color: #005555;
-        font-family: 'Bebas Neue', cursive;
         font-size: 35px;
         text-align: left; 
+        animation-name: none;
     }
     label{
         color: #005555;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 15px;
-        text-align: left; 
     }
     .campo{
         display: list-item;
@@ -405,6 +438,18 @@ label{
                             "textoTres";
         gap: 5px;
     }
+
+    
+    .headUno{
+        animation-name: none;
+    }
+    .headDos{
+        animation-name: none;
+    }
+    .headTres{
+        animation-name: none;
+    }
+
     .footer{
     align-self: end;
     justify-self: center;
@@ -413,7 +458,6 @@ label{
      /* contacto html */
 
      .formulario{
-        background-color: #E4E9BE;
         justify-self: center;
         width: 300px;
         height: 550px;
@@ -421,14 +465,11 @@ label{
         padding: 20px 50px 10px 40px;
     }
     legend{
-        color: #005555;
-        font-family: 'Bebas Neue', cursive;
         font-size: 35px;
-        text-align: center; 
+        text-align: center;
+        animation-name: none; 
     }
     label{
-        color: #005555;
-        font-family: Arial, Helvetica, sans-serif;
         font-size: 15px;
         text-align: left; 
     }
