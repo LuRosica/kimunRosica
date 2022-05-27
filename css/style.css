@@ -15,8 +15,8 @@ body{
     position: sticky;
     top: 0;
     height: 180px;
-    background-image: url("../Img/banner.jpg");
-    z-index: 1;
+    background-image: url("../img/banner.jpg");
+    z-index: 1000;
 }
 
 .equipo{
@@ -196,7 +196,7 @@ footer p{
     font-family: 'Fredoka One', cursive;
 }
 .cursoUno{
-    background-image: url("../Img/curso.jpg");
+    background-image: url("../img/curso.jpg");
     width: 1200px;
     height: 250px;
     margin: 30px 50px 20px 90px;
