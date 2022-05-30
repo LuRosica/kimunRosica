@@ -1,0 +1,95 @@
+@import "utilities/variables";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// estilos header
+
+header{
+    position: sticky;
+    top: 0;
+    height: 180px;
+    background-image: url("../img/banner.jpg");
+    z-index: 1000;
+    
+    h1{
+        text-align: center;
+        color: $color-principal;
+        font-size: $letra-grande;    
+        font-family: $texto-principal;
+    }
+
+    h2{
+        position: relative;
+        color: $color-secundario;
+        font-size: $letra-mediana;
+        font-family: $texto-subtitulo;
+        text-align: center; 
+    }
+
+    .arbol{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 14%;
+    }
+
+    .opcion{
+        font-family: $texto-titulo;
+        font-size: $letra-chica;
+    }
+}
+
+footer{
+    text-align: center;
+    margin: 4px;
+    font-size: $letra-chica;
+}
+
+// estilos index
+
+main{
+    .foto{
+        background-color: $color-alternativo;
+        color: $color-secundario; 
+    }
+
+    h3{
+        font-family: $texto-titulo;
+    }
+}
+
+// estilos nosotros html 
+
+article{
+    h3{
+        background-image: linear-gradient(to bottom, #BFD8B8, #FAEEE0);
+        text-align: center;
+        font-size: $letra-mediana;
+        margin: 40px;
+        padding: 5px;
+        border: double 5px $color-principal;
+        border-radius: 20px;
+        color: $color-principal;
+        font-family: $texto-titulo;
+    }
+    
+    .conocenos{
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+    
+    p{
+        font-family: $texto-body;
+        text-align: center;
+        font-size: $letra-chica;
+    }
+    
+    .imgNosotros{
+        width: 90%;
+    }
+}
+

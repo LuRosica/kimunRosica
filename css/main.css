@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  position: sticky;
+  top: 0;
+  height: 180px;
+  background-image: url("../img/banner.jpg");
+  z-index: 1000; }
+  header h1 {
+    text-align: center;
+    color: #446A46;
+    font-size: 55px;
+    font-family: "Bebas Neue", cursive; }
+  header h2 {
+    position: relative;
+    color: #243D25;
+    font-size: 30px;
+    font-family: "Square Peg", cursive;
+    text-align: center; }
+  header .arbol {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 14%; }
+  header .opcion {
+    font-family: "Fredoka One", cursive;
+    font-size: 15px; }
+
+footer {
+  text-align: center;
+  margin: 4px;
+  font-size: 15px; }
+
+main .foto {
+  background-color: #E4E9BE;
+  color: #243D25; }
+
+main h3 {
+  font-family: "Fredoka One", cursive; }
+
+article h3 {
+  background-image: linear-gradient(to bottom, #BFD8B8, #FAEEE0);
+  text-align: center;
+  font-size: 30px;
+  margin: 40px;
+  padding: 5px;
+  border: double 5px #446A46;
+  border-radius: 20px;
+  color: #446A46;
+  font-family: "Fredoka One", cursive; }
+
+article .conocenos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap; }
+
+article p {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 15px; }
+
+article .imgNosotros {
+  width: 90%; }
