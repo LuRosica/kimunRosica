@@ -1,0 +1,4 @@
+.video{
+    @include displayFlex (flex, center, nowrap);
+    margin: 20px;
+}

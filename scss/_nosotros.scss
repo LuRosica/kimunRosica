@@ -1,0 +1,30 @@
+.historia{
+    h3{
+        @extend %boxTitulo;
+        font-size: 20px;
+    }
+    
+    .conocenos{
+        @include displayFlex (flex, center, nowrap);
+    }
+    h4{
+        font-family: $texto-titulo;
+        color: $color-secundario;
+        text-decoration: underline;
+        margin: 8px;
+        font-size: 18px;
+    }
+    p{
+        @include textos (black, $texto-body, $letra-chica, left);
+        margin: 12px;
+        span{
+            color: $color-secundario;
+            font-weight: bold;
+            font-size: 18px;
+        }
+    }
+    
+    .imgNosotros{
+        width: 90%;
+    }
+}

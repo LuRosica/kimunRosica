@@ -1,0 +1,18 @@
+@mixin boxTitulo ($center, $margin, $padding){
+    text-align: $center;
+    margin: $margin;
+    padding: $padding;
+}
+
+@mixin textos ($color, $font, $size, $align) {
+    color: $color;
+    font-family: $font;
+    font-size: $size;
+    text-align: $align;
+}
+
+@mixin displayFlex ($flex, $center, $wrap) {
+    display: $flex;
+    justify-content: $center;
+    flex-wrap: $wrap;
+}

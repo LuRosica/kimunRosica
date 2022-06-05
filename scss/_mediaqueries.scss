@@ -1,0 +1,224 @@
+@media only screen and (min-width:769px) {
+    header{
+        height: 160px;
+        h1{
+            font-size: 40px;  
+        }
+        .arbol{
+            display: block;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            width: 14%;
+        }
+    }
+    .historia{
+        h3{
+            font-size: 24px;
+        }
+        h4{
+            font-size: 20px;
+        }
+    }
+    footer{
+        font-size: $letra-chica;
+    }
+    .proyectos{
+        height: 100vh;
+        width: 100vh;
+        grid-template-columns: repeat(3, 20% 50% 30%);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: "headUno textoUno imagUno"
+                            "headDos textoDos imagDos"
+                            "headTres textoTres imagTres";
+        gap: 8px;
+        justify-items: center;
+        align-items: center;
+        .headUno{
+            font-size: 25px;
+        }
+        .textoUno{
+            font-size: 15px;
+            margin-right: 36px;
+        }
+        .headDos{
+            font-size: 25px;
+        }
+        .textoDos{
+            font-size: 15px;
+            margin-right: 36px;
+        }
+        .headTres{
+            font-size: 25px;
+        }
+        .textoTres{
+            font-size: 15px;
+            margin-right: 36px;
+        }
+    }
+    .listaCursos{
+        h3{
+            font-size: 24px;
+        }
+        .cursoUno{
+            width: 740px;
+            height: 380px;
+            h4{
+                font-size: 35px;
+            }   
+        }
+    }
+    form{
+        fieldset{
+            width: 740px;
+            height: 400px;
+            legend{
+                font-size: 35px;
+            }
+            label{
+                font-size: 15px;
+            }
+            .campo{
+                width: 600px;
+            }
+            .boton{
+                width: 150px;
+            }
+        }
+    }
+    main{
+        .bienvenida{
+            h3{
+                font-size: 25px;
+            }
+            h4{
+                font-size: 35px;
+            }
+            p{
+                font-size: 18px;
+            }
+        }
+    }
+    .piePagina{
+        margin-top: 20px;
+        p{
+            font-size: 18px;
+        }
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    header{
+        height: 180px;
+        h1{
+            font-size: $letra-grande;  
+        }
+        .arbol{
+            display: block;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            width: 20%;
+        }
+    }
+    .historia{
+        h3{
+            font-size: $letra-mediana
+        }
+        h4{
+            font-size: 25px;
+        }
+    }
+    footer{
+        font-size: $letra-chica;
+    }
+    .proyectos{
+        height: 100vh;
+        width: 150vh;
+        grid-template-columns: repeat(3, 20% 50% 30%);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: "headUno textoUno imagUno"
+                            "headDos textoDos imagDos"
+                            "headTres textoTres imagTres";
+        gap: 8px;
+        justify-items: center;
+        align-items: center;
+        .headUno{
+            font-size: 25px;
+        }
+        .textoUno{
+            font-size: 15px;
+            margin-right: 36px;
+        }
+        .headDos{
+            font-size: 25px;
+        }
+        .textoDos{
+            font-size: 15px;
+            margin-right: 36px;
+        }
+        .headTres{
+            font-size: 25px;
+        }
+        .textoTres{
+            font-size: 15px;
+            margin-right: 36px;
+        }
+    }
+    .listaCursos{
+        h3{
+            font-size: $letra-mediana;
+        }
+        .cursoUno{
+            width: 1200px;
+            height: 280px;
+            margin: 30px 50px 20px 90px;
+            padding: 20px 50px 10px 40px;
+            h4{
+                font-size: 35px;
+            }   
+        }
+    }
+    form{
+        fieldset{
+            width: 980px;
+            height: 500px;
+            legend{
+                font-size: 40px;
+            }
+            label{
+                font-size: 18px;
+            }
+            .campo{
+                width: 600px;
+                font-size: 18px;
+            }
+            .boton{
+                width: 150px;
+            }
+        }
+    }
+    main{
+        .principal{
+            margin: 20px;
+            height: 320px;
+        }
+        .bienvenida{
+            h3{
+                font-size: 20px;
+            }
+            h4{
+                font-size: 35px;
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+    }
+    .piePagina{
+        margin-top: 15px;
+        p{
+            font-size: 18px;
+        }
+    }
+}

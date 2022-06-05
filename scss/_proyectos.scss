@@ -1,0 +1,57 @@
+.proyectos{
+    display: grid;
+    height: 140vh;
+    width: 60vh;
+    padding: 10px;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(9, 1fr);
+    grid-template-areas: "headUno"
+                        "textoUno"
+                        "imagUno"
+                        "headDos"
+                        "textoDos"
+                        "imagDos"
+                        "headTres" 
+                        "textoTres"
+                        "imagTres";
+    gap: 8px;
+    justify-items: center;
+    .headUno{
+        @extend %tituloProyecto;
+        grid-area: headUno;
+    }
+    .textoUno{
+        @extend %proyecto;
+        grid-area: textoUno;
+    }
+    .imagUno{
+        @include displayFlex (flex, center, nowrap);
+        margin-bottom: 20px;
+        grid-area: imagUno;
+    }
+    .headDos{
+        @extend %tituloProyecto;
+        grid-area: headDos;
+    }
+    .textoDos{
+        @extend %proyecto;
+        grid-area: textoDos;
+    }
+    .imagDos{
+        @include displayFlex (flex, center, nowrap);
+        grid-area: imagDos;
+        margin-bottom: 20px;
+    }
+    .headTres{
+        @extend %tituloProyecto;
+        grid-area: headTres;
+    }
+    .textoTres{
+        @extend %proyecto;
+        grid-area: textoTres;
+    }
+    .imagTres{
+        @include displayFlex (flex, center, nowrap);
+        grid-area: imagTres;
+    }
+}

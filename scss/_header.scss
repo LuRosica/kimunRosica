@@ -1,0 +1,41 @@
+// estilos header
+
+header{
+    position: sticky;
+    top: 0;
+    height: 150px;
+    background-image: url("../img/banner.jpg");
+    z-index: 1000;
+    
+    h1{
+        text-align: center;
+        color: $color-principal;
+        font-size: $letra-mediana;    
+        font-family: $texto-principal;
+    }
+
+    h2{
+        position: relative;
+        color: $color-secundario;
+        font-size: $letra-mediana;
+        font-family: $texto-subtitulo;
+        text-align: center; 
+    }
+
+    .arbol{
+        display: none;
+    }
+
+    .opcion{
+        font-family: $texto-titulo;
+        font-size: $letra-chica;
+    }
+}
+
+// estilos footer
+
+footer{
+    text-align: center;
+    margin: 4px;
+    font-size: 10px;
+}

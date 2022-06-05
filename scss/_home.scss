@@ -1,0 +1,25 @@
+main{
+    .bienvenida{
+        h3{
+            @extend %tituloProyecto;
+            margin: 10px;
+        }
+        h4{
+            @include textos (black, $texto-subtitulo, 24px, center
+            );
+        }
+        p{
+            @include textos ($color-secundario, $texto-body, $letra-chica,center)
+        }
+    }
+}
+.piePagina{
+    margin-top: 35px;
+    margin-left: 15px;
+    margin-right: 15px;
+    p{
+        @include textos ($color-alternativo, $texto-titulo, $letra-chica, center);
+        background-color: $color-principal;
+        border-radius: 15px;
+    }
+}
