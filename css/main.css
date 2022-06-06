@@ -26,7 +26,7 @@ main .bienvenida h3, .proyectos .headUno, .proyectos .headDos, .proyectos .headT
   font-family: "Fredoka One", cursive; }
 
 .listaCursos .cursoUno {
-  background-image: url("../Img/curso.jpg");
+  background-image: url("../../img/curso.jpg");
   width: 380px;
   height: 740px;
   margin: 10px;
