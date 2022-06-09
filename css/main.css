@@ -4,14 +4,14 @@
   box-sizing: border-box; }
 
 .proyectos .textoUno, .proyectos .textoDos, .proyectos .textoTres {
-  font-size: 10px;
+  font-size: 15px;
   text-align: center;
   justify-items: center; }
 
 main .bienvenida h3, .proyectos .headUno, .proyectos .headDos, .proyectos .headTres {
   color: #446A46;
   font-family: 'Bebas Neue', cursive;
-  font-size: 16px;
+  font-size: 20px;
   text-align: center; }
 
 .historia h3, .listaCursos h3 {
@@ -20,8 +20,8 @@ main .bienvenida h3, .proyectos .headUno, .proyectos .headDos, .proyectos .headT
   margin: 40px;
   padding: 5px;
   font-size: 30px;
-  border: double 5px #446A46;
-  border-radius: 20px;
+  border: 5px #446A46;
+  border-radius: 15px;
   color: #446A46;
   font-family: "Fredoka One", cursive; }
 
@@ -44,7 +44,8 @@ header {
     text-align: center;
     color: #446A46;
     font-size: 30px;
-    font-family: "Bebas Neue", cursive; }
+    font-family: "Bebas Neue", cursive;
+    text-shadow: 5px 5px 5px #888888; }
   header h2 {
     position: relative;
     color: #243D25;
@@ -87,12 +88,13 @@ main .bienvenida p {
     font-size: 15px;
     text-align: center;
     background-color: #446A46;
-    border-radius: 15px; }
+    border-radius: 15px;
+    margin: 30px; }
 
 .proyectos {
   display: grid;
-  height: 140vh;
-  width: 60vh;
+  height: 1200px;
+  width: 400px;
   padding: 10px;
   grid-template-columns: 100%;
   grid-template-rows: repeat(9, 1fr);
@@ -141,7 +143,7 @@ main .bienvenida p {
   font-family: "Fredoka One", cursive;
   color: #243D25;
   text-decoration: underline;
-  margin: 8px;
+  margin: 22px;
   font-size: 18px; }
 
 .historia p {
@@ -149,7 +151,7 @@ main .bienvenida p {
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   text-align: left;
-  margin: 12px; }
+  margin: 22px; }
   .historia p span {
     color: #243D25;
     font-weight: bold;
@@ -158,11 +160,46 @@ main .bienvenida p {
 .historia .imgNosotros {
   width: 90%; }
 
-.video {
-  display: flex;
-  justify-content: center;
-  flex-wrap: nowrap;
-  margin: 20px; }
+.galeria {
+  display: grid;
+  height: 1800px;
+  width: 450px;
+  padding: 10px;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-areas: "galUno" "galDos" "galTres" "galCuatro" "galCinco" "galSeis";
+  justify-items: center;
+  gap: 10px; }
+  .galeria .galUno {
+    grid-area: galUno;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap; }
+  .galeria .galDos {
+    grid-area: galDos;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap; }
+  .galeria .galTres {
+    grid-area: galTres;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap; }
+  .galeria .galCuatro {
+    grid-area: galCuatro;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap; }
+  .galeria .galCinco {
+    grid-area: galCinco;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap; }
+  .galeria .galSeis {
+    grid-area: galSeis;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap; }
 
 .listaCursos h3 {
   font-size: 20px; }
@@ -226,8 +263,8 @@ form fieldset {
   footer {
     font-size: 15px; }
   .proyectos {
-    height: 100vh;
-    width: 100vh;
+    height: 800px;
+    width: 700px;
     grid-template-columns: repeat(3, 20% 50% 30%);
     grid-template-rows: repeat(3, 1fr);
     grid-template-areas: "headUno textoUno imagUno" "headDos textoDos imagDos" "headTres textoTres imagTres";
@@ -276,7 +313,12 @@ form fieldset {
   .piePagina {
     margin-top: 20px; }
     .piePagina p {
-      font-size: 18px; } }
+      font-size: 18px; }
+  .galeria {
+    width: 700px;
+    justify-items: center; }
+    .galeria .galUno, .galeria .galDos, .galeria .galTres, .galeria .galCuatro, .galeria .galCinco, .galeria .galSeis {
+      box-shadow: 10px 5px 5px #888888; } }
 
 @media only screen and (min-width: 1024px) {
   header {
@@ -289,6 +331,9 @@ form fieldset {
       top: 0px;
       left: 0px;
       width: 20%; }
+    header .opcion:hover {
+      font-weight: bold;
+      font-size: 15.5px; }
   .historia h3 {
     font-size: 30px; }
   .historia h4 {
@@ -296,8 +341,8 @@ form fieldset {
   footer {
     font-size: 15px; }
   .proyectos {
-    height: 100vh;
-    width: 150vh;
+    height: 800px;
+    width: 1000px;
     grid-template-columns: repeat(3, 20% 50% 30%);
     grid-template-rows: repeat(3, 1fr);
     grid-template-areas: "headUno textoUno imagUno" "headDos textoDos imagDos" "headTres textoTres imagTres";
@@ -352,4 +397,14 @@ form fieldset {
   .piePagina {
     margin-top: 15px; }
     .piePagina p {
-      font-size: 18px; } }
+      font-size: 18px; }
+  .galeria {
+    width: 1350px;
+    height: 600px;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "galUno galDos galTres" "galCuatro galCinco galSeis";
+    gap: 2px; }
+    .galeria .galUno, .galeria .galDos, .galeria .galTres, .galeria .galCuatro, .galeria .galCinco, .galeria .galSeis {
+      box-shadow: 10px 5px 5px #888888; } }

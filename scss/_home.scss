@@ -21,5 +21,6 @@ main{
         @include textos ($color-alternativo, $texto-titulo, $letra-chica, center);
         background-color: $color-principal;
         border-radius: 15px;
+        margin: 30px;
     }
 }

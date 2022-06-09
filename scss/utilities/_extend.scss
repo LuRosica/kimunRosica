@@ -1,5 +1,5 @@
 %proyecto{
-    font-size: 10px;
+    font-size: 15px;
     text-align: center;
     justify-items: center;
 }
@@ -7,7 +7,7 @@
 %tituloProyecto{
     color: #446A46;
     font-family: 'Bebas Neue', cursive;
-    font-size: 16px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -15,8 +15,8 @@
     background-image: $gradiant;
     @include boxTitulo (center, 40px, 5px);
     font-size: $letra-mediana;
-    border: double 5px $color-principal;
-    border-radius: 20px;
+    border: 5px $color-principal;
+    border-radius: 15px;
     color: $color-principal;
     font-family: $texto-titulo;
 }

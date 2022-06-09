@@ -1,4 +1,40 @@
-.video{
-    @include displayFlex (flex, center, nowrap);
-    margin: 20px;
+.galeria{
+    display: grid;
+    height: 1800px;
+    width: 450px;
+    padding: 10px;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: "galUno"
+                        "galDos"
+                        "galTres"
+                        "galCuatro"
+                        "galCinco"
+                        "galSeis";
+    justify-items: center;
+    gap: 10px;
+    .galUno{
+        grid-area: galUno;
+        @include displayFlex (flex, center, nowrap);
+    }
+    .galDos{
+        grid-area: galDos;
+        @include displayFlex (flex, center, nowrap);
+    }
+    .galTres{
+        grid-area: galTres;
+        @include displayFlex (flex, center, nowrap);
+    }
+    .galCuatro{
+        grid-area: galCuatro;
+        @include displayFlex (flex, center, nowrap);
+    }
+    .galCinco{
+        grid-area: galCinco;
+        @include displayFlex (flex, center, nowrap);
+    }
+    .galSeis{
+        grid-area: galSeis;
+        @include displayFlex (flex, center, nowrap);
+    }
 }

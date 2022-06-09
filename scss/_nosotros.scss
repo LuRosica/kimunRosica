@@ -11,12 +11,12 @@
         font-family: $texto-titulo;
         color: $color-secundario;
         text-decoration: underline;
-        margin: 8px;
+        margin: 22px;
         font-size: 18px;
     }
     p{
         @include textos (black, $texto-body, $letra-chica, left);
-        margin: 12px;
+        margin: 22px;
         span{
             color: $color-secundario;
             font-weight: bold;
