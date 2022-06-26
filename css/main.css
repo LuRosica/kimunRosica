@@ -58,10 +58,25 @@ header {
     font-family: "Fredoka One", cursive;
     font-size: 15px; }
 
-footer {
-  text-align: center;
-  margin: 4px;
-  font-size: 10px; }
+footer .buttons {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  margin-bottom: 5px; }
+  footer .buttons .facebook {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px; }
+  footer .buttons .instagram {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px; }
+  footer .buttons .whatsapp {
+    width: 20px;
+    height: 20px; }
+
+footer p {
+  text-align: center; }
 
 main .bienvenida h3 {
   margin: 10px; }
@@ -262,6 +277,19 @@ form fieldset {
     font-size: 20px; }
   footer {
     font-size: 15px; }
+    footer .buttons {
+      margin-bottom: 10px; }
+      footer .buttons .facebook {
+        width: 30px;
+        height: 30px;
+        margin-right: 20px; }
+      footer .buttons .instagram {
+        width: 30px;
+        height: 30px;
+        margin-right: 20px; }
+      footer .buttons .whatsapp {
+        width: 30px;
+        height: 30px; }
   .proyectos {
     height: 800px;
     width: 700px;
@@ -271,21 +299,13 @@ form fieldset {
     gap: 8px;
     justify-items: center;
     align-items: center; }
-    .proyectos .headUno {
+    .proyectos .headUno, .proyectos .headDos, .proyectos .headTres {
       font-size: 25px; }
-    .proyectos .textoUno {
+    .proyectos .textoUno, .proyectos .textoDos, .proyectos .textoTres {
       font-size: 15px;
       margin-right: 36px; }
-    .proyectos .headDos {
-      font-size: 25px; }
-    .proyectos .textoDos {
-      font-size: 15px;
-      margin-right: 36px; }
-    .proyectos .headTres {
-      font-size: 25px; }
-    .proyectos .textoTres {
-      font-size: 15px;
-      margin-right: 36px; }
+    .proyectos .imagUno, .proyectos .imagDos, .proyectos .imagTres {
+      box-shadow: 10px 5px 5px #888888; }
   .listaCursos h3 {
     font-size: 24px; }
   .listaCursos .cursoUno {
@@ -340,6 +360,19 @@ form fieldset {
     font-size: 25px; }
   footer {
     font-size: 15px; }
+    footer .buttons {
+      margin-bottom: 10px; }
+      footer .buttons .facebook {
+        width: 30px;
+        height: 30px;
+        margin-right: 20px; }
+      footer .buttons .instagram {
+        width: 30px;
+        height: 30px;
+        margin-right: 20px; }
+      footer .buttons .whatsapp {
+        width: 30px;
+        height: 30px; }
   .proyectos {
     height: 800px;
     width: 1000px;
@@ -349,21 +382,13 @@ form fieldset {
     gap: 8px;
     justify-items: center;
     align-items: center; }
-    .proyectos .headUno {
+    .proyectos .headUno, .proyectos .headDos, .proyectos .headTres {
       font-size: 25px; }
-    .proyectos .textoUno {
+    .proyectos .textoUno, .proyectos .textoDos, .proyectos .textoTres {
       font-size: 15px;
       margin-right: 36px; }
-    .proyectos .headDos {
-      font-size: 25px; }
-    .proyectos .textoDos {
-      font-size: 15px;
-      margin-right: 36px; }
-    .proyectos .headTres {
-      font-size: 25px; }
-    .proyectos .textoTres {
-      font-size: 15px;
-      margin-right: 36px; }
+    .proyectos .imagUno, .proyectos .imagDos, .proyectos .imagTres {
+      box-shadow: 10px 5px 5px #888888; }
   .listaCursos h3 {
     font-size: 30px; }
   .listaCursos .cursoUno {
@@ -386,14 +411,16 @@ form fieldset {
     form fieldset .boton {
       width: 150px; }
   main .principal {
-    margin: 20px;
-    height: 320px; }
-  main .bienvenida h3 {
-    font-size: 20px; }
-  main .bienvenida h4 {
-    font-size: 35px; }
-  main .bienvenida p {
-    font-size: 15px; }
+    margin: 8px;
+    height: 370px; }
+  main .bienvenida {
+    margin-top: 0px; }
+    main .bienvenida h3 {
+      font-size: 22px; }
+    main .bienvenida h4 {
+      font-size: 35px; }
+    main .bienvenida p {
+      font-size: 15px; }
   .piePagina {
     margin-top: 15px; }
     .piePagina p {

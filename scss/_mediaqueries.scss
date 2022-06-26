@@ -22,6 +22,23 @@
     }
     footer{
         font-size: $letra-chica;
+        .buttons{
+            margin-bottom: 10px;
+            .facebook{
+                width: 30px;
+                height: 30px;
+                margin-right: 20px;
+            }
+            .instagram{
+                width: 30px;
+                height: 30px;  
+                margin-right: 20px;
+            }
+            .whatsapp{
+                width: 30px;
+                height: 30px;  
+            }
+        }
     }
     .proyectos{
         height: 800px;
@@ -34,26 +51,15 @@
         gap: 8px;
         justify-items: center;
         align-items: center;
-        .headUno{
+        .headUno, .headDos, .headTres {
             font-size: 25px;
         }
-        .textoUno{
+        .textoUno, .textoDos, .textoTres{
             font-size: 15px;
             margin-right: 36px;
         }
-        .headDos{
-            font-size: 25px;
-        }
-        .textoDos{
-            font-size: 15px;
-            margin-right: 36px;
-        }
-        .headTres{
-            font-size: 25px;
-        }
-        .textoTres{
-            font-size: 15px;
-            margin-right: 36px;
+        .imagUno, .imagDos, .imagTres{
+            box-shadow: 10px 5px 5px #888888;
         }
     }
     .listaCursos{
@@ -142,7 +148,26 @@
     }
     footer{
         font-size: $letra-chica;
+        .buttons{
+            margin-bottom: 10px;
+            .facebook{
+                width: 30px;
+                height: 30px;
+                margin-right: 20px;
+            }
+            .instagram{
+                width: 30px;
+                height: 30px;  
+
+                margin-right: 20px;
+            }
+            .whatsapp{
+                width: 30px;
+                height: 30px;  
+            }
+        }
     }
+
     .proyectos{
         height: 800px;
         width: 1000px;
@@ -154,26 +179,15 @@
         gap: 8px;
         justify-items: center;
         align-items: center;
-        .headUno{
+        .headUno, .headDos, .headTres{
             font-size: 25px;
         }
-        .textoUno{
+        .textoUno, .textoDos, .textoTres{
             font-size: 15px;
             margin-right: 36px;
         }
-        .headDos{
-            font-size: 25px;
-        }
-        .textoDos{
-            font-size: 15px;
-            margin-right: 36px;
-        }
-        .headTres{
-            font-size: 25px;
-        }
-        .textoTres{
-            font-size: 15px;
-            margin-right: 36px;
+        .imagUno, .imagDos, .imagTres{
+            box-shadow: 10px 5px 5px #888888;
         }
     }
     .listaCursos{
@@ -211,12 +225,13 @@
     }
     main{
         .principal{
-            margin: 20px;
-            height: 320px;
+            margin: 8px;
+            height: 370px;
         }
         .bienvenida{
+            margin-top: 0px;
             h3{
-                font-size: 20px;
+                font-size: 22px;
             }
             h4{
                 font-size: 35px;
