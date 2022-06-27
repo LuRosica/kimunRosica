@@ -12,7 +12,8 @@ main .bienvenida h3, .proyectos .headUno, .proyectos .headDos, .proyectos .headT
   color: #446A46;
   font-family: 'Bebas Neue', cursive;
   font-size: 20px;
-  text-align: center; }
+  text-align: center;
+  text-shadow: 5px 5px 5px #888888; }
 
 .historia h3, .listaCursos h3 {
   background-image: linear-gradient(to bottom, #BFD8B8, #FAEEE0);
@@ -107,9 +108,10 @@ main .bienvenida p {
     margin: 30px; }
 
 .proyectos {
+  background-color: #E4E9BE;
   display: grid;
   height: 1200px;
-  width: 400px;
+  width: 100%;
   padding: 10px;
   grid-template-columns: 100%;
   grid-template-rows: repeat(9, 1fr);
@@ -292,7 +294,7 @@ form fieldset {
         height: 30px; }
   .proyectos {
     height: 800px;
-    width: 700px;
+    width: 100%;
     grid-template-columns: repeat(3, 20% 50% 30%);
     grid-template-rows: repeat(3, 1fr);
     grid-template-areas: "headUno textoUno imagUno" "headDos textoDos imagDos" "headTres textoTres imagTres";

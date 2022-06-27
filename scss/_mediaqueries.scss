@@ -42,7 +42,7 @@
     }
     .proyectos{
         height: 800px;
-        width: 700px;
+        width: 100%;
         grid-template-columns: repeat(3, 20% 50% 30%);
         grid-template-rows: repeat(3, 1fr);
         grid-template-areas: "headUno textoUno imagUno"
