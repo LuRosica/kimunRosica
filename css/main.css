@@ -117,7 +117,8 @@ main .bienvenida p {
   grid-template-rows: repeat(9, 1fr);
   grid-template-areas: "headUno" "textoUno" "imagUno" "headDos" "textoDos" "imagDos" "headTres"  "textoTres" "imagTres";
   gap: 8px;
-  justify-items: center; }
+  justify-items: center;
+  margin-bottom: 20px; }
   .proyectos .headUno {
     grid-area: headUno; }
   .proyectos .textoUno {

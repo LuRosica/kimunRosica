@@ -17,6 +17,7 @@
                         "imagTres";
     gap: 8px;
     justify-items: center;
+    margin-bottom: 20px;
     .headUno{
         @extend %tituloProyecto;
         grid-area: headUno;
