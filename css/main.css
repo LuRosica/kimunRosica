@@ -28,7 +28,7 @@ main .bienvenida h3, .proyectos .headUno, .proyectos .headDos, .proyectos .headT
 .listaCursos .cursoUno {
   background-image: url("../../img/curso.jpg");
   width: 380px;
-  height: 740px;
+  height: 90%;
   margin: 10px;
   padding: 20px 50px 10px 40px;
   border: double 10px black;
@@ -178,7 +178,7 @@ main .bienvenida p {
 .galeria {
   display: grid;
   height: 1800px;
-  width: 450px;
+  width: 90%;
   padding: 10px;
   grid-template-columns: 100%;
   grid-template-rows: repeat(6, 1fr);
@@ -309,7 +309,7 @@ form fieldset {
   .listaCursos h3 {
     font-size: 24px; }
   .listaCursos .cursoUno {
-    width: 740px;
+    width: 90%;
     height: 380px; }
     .listaCursos .cursoUno h4 {
       font-size: 35px; }
@@ -335,7 +335,7 @@ form fieldset {
     .piePagina p {
       font-size: 18px; }
   .galeria {
-    width: 700px;
+    width: 90%;
     justify-items: center; }
     .galeria .galUno, .galeria .galDos, .galeria .galTres, .galeria .galCuatro, .galeria .galCinco, .galeria .galSeis {
       box-shadow: 10px 5px 5px #888888; } }
@@ -350,7 +350,7 @@ form fieldset {
       position: fixed;
       top: 0px;
       left: 0px;
-      width: 20%; }
+      width: 180px; }
     header .opcion:hover {
       font-weight: bold;
       font-size: 15.5px; }
@@ -375,7 +375,7 @@ form fieldset {
         height: 30px; }
   .proyectos {
     height: 800px;
-    width: 1000px;
+    width: 100%;
     grid-template-columns: repeat(3, 20% 50% 30%);
     grid-template-rows: repeat(3, 1fr);
     grid-template-areas: "headUno textoUno imagUno" "headDos textoDos imagDos" "headTres textoTres imagTres";
@@ -392,7 +392,7 @@ form fieldset {
   .listaCursos h3 {
     font-size: 30px; }
   .listaCursos .cursoUno {
-    width: 1200px;
+    width: 90%;
     height: 280px;
     margin: 30px 50px 20px 90px;
     padding: 20px 50px 10px 40px; }
@@ -412,7 +412,7 @@ form fieldset {
       width: 150px; }
   main .principal {
     margin: 8px;
-    height: 370px; }
+    height: 450px; }
   main .bienvenida {
     margin-top: 0px; }
     main .bienvenida h3 {

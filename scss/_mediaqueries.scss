@@ -67,7 +67,7 @@
             font-size: 24px;
         }
         .cursoUno{
-            width: 740px;
+            width: 90%;
             height: 380px;
             h4{
                 font-size: 35px;
@@ -112,7 +112,7 @@
         }
     }
     .galeria{
-        width: 700px;
+        width: 90%;
         justify-items: center;
         .galUno, .galDos, .galTres, .galCuatro, .galCinco, .galSeis{
             box-shadow: 10px 5px 5px #888888;
@@ -131,7 +131,7 @@
             position: fixed;
             top: 0px;
             left: 0px;
-            width: 20%;
+            width: 180px;
         }
         .opcion:hover{
             font-weight: bold;
@@ -170,7 +170,7 @@
 
     .proyectos{
         height: 800px;
-        width: 1000px;
+        width: 100%;
         grid-template-columns: repeat(3, 20% 50% 30%);
         grid-template-rows: repeat(3, 1fr);
         grid-template-areas: "headUno textoUno imagUno"
@@ -195,7 +195,7 @@
             font-size: $letra-mediana;
         }
         .cursoUno{
-            width: 1200px;
+            width: 90%;
             height: 280px;
             margin: 30px 50px 20px 90px;
             padding: 20px 50px 10px 40px;
@@ -226,7 +226,7 @@
     main{
         .principal{
             margin: 8px;
-            height: 370px;
+            height: 450px;
         }
         .bienvenida{
             margin-top: 0px;
